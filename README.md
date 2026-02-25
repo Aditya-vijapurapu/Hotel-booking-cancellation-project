@@ -4,7 +4,7 @@ This project demonstrates a full **data science workflow** to predict whether a 
 
 > This is not just a basic notebook — this reflects end-to-end predictive modelling practice with sound evaluation and real-world business framing.
 
-## 🚀 Project Overview
+## Project Overview
 
 - **Problem Statement**  
   Predict hotel booking cancellations to help hotels better **manage overbookings**, improve **revenue**, and reduce costs associated with late cancellations.
@@ -15,7 +15,7 @@ This project demonstrates a full **data science workflow** to predict whether a 
 - **Data Source**  
   Hotel booking datasets with reservation records across multiple hotels, including booking details, guest information, and cancellation flag.
 
-## 📊 Dataset Summary
+## Dataset Summary
 
 - Multi-year booking records (~100k+ rows)
 - ~30+ features including:
@@ -23,7 +23,7 @@ This project demonstrates a full **data science workflow** to predict whether a 
   - guest counts, room type, previous cancellations
 - Target variable: **`is_canceled`** (binary classification)
 
-## 🧠 Key Technologies Used
+## Key Technologies Used
 
 | Layer | Tools & Libraries |
 |------|------------------|
@@ -32,7 +32,7 @@ This project demonstrates a full **data science workflow** to predict whether a 
 | Machine Learning | scikit-learn, XGBoost |
 | Modelling Techniques | Random Forest, Gradient Boosting, SMOTE |
 
-## 🔄 Workflow
+## Workflow
 
 1. **Data Collection & Cleaning**  
    - Handle missing values  
@@ -55,7 +55,7 @@ This project demonstrates a full **data science workflow** to predict whether a 
    - Hyperparameter tuning  
    - Metrics: Accuracy, Precision/Recall, F1-Score
 
-## 📌 Results
+## Results
 
 - Models demonstrate strong predictive performance.
 - Feature importance provides business insights (e.g., **lead time**, **deposit type**, and **market segment** are strong cancellation indicators).
