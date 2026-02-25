@@ -61,3 +61,18 @@ This project demonstrates a full **data science workflow** to predict whether a 
 - Feature importance provides business insights (e.g., **lead time**, **deposit type**, and **market segment** are strong cancellation indicators).
 
 ## 📁 Repository Structure
+Hotel-booking-cancellation-project/
+│
+├── data/
+│ ├── hotel_bookings.csv
+│ └── data_dictionary.md
+│
+├── notebooks/
+│ └── Hotel_Cancellation_Prediction.ipynb
+│
+├── reports/
+│ └── EDA_visualizations.png
+│
+├── requirements.txt
+├── README.md
+└── LICENSE
